@@ -24,7 +24,7 @@ document.getElementById("button").addEventListener("click", function()
     }
     else {
         document.getElementById("cardNumber").value=hideNumbers;
-        document.getElementById("message1").innerHTML="Unvalid card. Inspect your digits again or choose another card.";
+        document.getElementById("message1").innerHTML="Unvalid card. Inspect your digits againgit or choose another card.";
     }
     
     }
