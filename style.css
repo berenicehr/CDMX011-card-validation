@@ -1,0 +1,115 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+header{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 42px;
+    text-align: center;
+    padding: 15px;
+
+color: #AD966A;
+
+    height:50px;    
+    background: black;
+}
+nav{
+    height:40px;
+    background:#AD966A;
+    color: black;
+    font-size: 25px;
+
+}
+
+nav li{
+    list-style: none;
+    margin-left: 70px;
+    float: left;
+    padding: 7px;
+    
+}
+
+nav li a{
+    color: black;
+}
+.fondo{
+    position: absolute;
+        width: 1440px;
+        height: 950px;
+        left: 0px;
+        top: 120px;
+}
+.container{
+        position: absolute;
+        width: 774px;
+        height: 468px;
+        left: 30px;
+        top: 362px;
+
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #E7E8E9;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+h1{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+
+color: #000000;
+}
+label{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+color: #000000;
+}
+input[type=text]{
+    position: relative;
+    width: 521px;
+    height: 50px;
+    right: 100px;
+    top: 100px;
+    background: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+     color: #000000;
+}
+input[type=button]{
+    position: relative;
+    width: 191px;
+    height: 100px;
+    top: 30px;
+    left:550px;
+    background: #9F1616;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+
+    
+}
+#validCard{
+    margin-top: 70px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+
+}
